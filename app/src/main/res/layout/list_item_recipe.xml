@@ -62,7 +62,7 @@
             android:layout_height="45dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            app:srcCompat="@android:drawable/btn_star_big_on" />
+            app:srcCompat="@android:drawable/ic_menu_send" />
 
     </RelativeLayout>
 
