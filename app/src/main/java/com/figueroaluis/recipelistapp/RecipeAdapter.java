@@ -115,7 +115,7 @@ public class RecipeAdapter extends BaseAdapter {
         recipeInstructions.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                String instructions = "The instruction for " + recipe.title + " can be found here!";
+                String instructions = "The instructions for " + recipe.title + " can be found here!";
 
                 final Notification.Builder builder = new Notification.Builder(mContext);
 
