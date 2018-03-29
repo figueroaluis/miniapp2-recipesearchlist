@@ -3,4 +3,12 @@
     <string name="image_view">Main Image View</string>
     <string name="search_all_rec">Search All Recipes</string>
     <string name="main_screen_button">Search Recipes</string>
+    <string name="recipe_thumbnail">Recipe thumbnail</string>
+    <string name="prep_time">Prep Time</string>
+    <string name="serving_size">Serving Size</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="diet_restriction">Diet Restriction</string>
+    <string name="servings_restriction">Serving Restriction</string>
+    <string name="preparation_time">Preparation Time</string>
+    <string name="search_button">SEARCH</string>
 </resources>

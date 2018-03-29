@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/diet_servings_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:layout_toStartOf="@+id/search_button"
+        android:text="Diet Restriction" />
+
+    <TextView
+        android:id="@+id/servings_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/diet_servings_text_view"
+        android:layout_below="@+id/diet_spinner"
+        android:layout_marginTop="29dp"
+        android:text="Serving Restriction" />
+
+    <TextView
+        android:id="@+id/prep_time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/servings_text_view"
+        android:layout_below="@+id/servings_text_view"
+        android:layout_marginTop="31dp"
+        android:text="Preparation Time" />
+
+    <Spinner
+        android:id="@+id/diet_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/prep_time_spinner"
+        android:layout_alignTop="@+id/diet_servings_text_view" />
+
+    <Spinner
+        android:id="@+id/servings_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/prep_time_text_view"
+        android:layout_alignStart="@+id/prep_time_spinner"
+        android:ems="5" />
+
+    <Spinner
+        android:id="@+id/prep_time_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/prep_time_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/search_button" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:text="SEARCH" />
+
+</RelativeLayout>

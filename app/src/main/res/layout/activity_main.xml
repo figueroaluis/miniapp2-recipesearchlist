@@ -16,7 +16,7 @@
         android:src="@drawable/healthy_mind_and_body_2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/start_cooking_button"
         android:layout_width="180dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
